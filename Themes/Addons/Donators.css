@@ -7,12 +7,6 @@
 * @source https://discord.lynnux.xyz/themes/Addons/donators.css?v=1
 */
 
-.container_ca50b9:has(.avatarWrapper_ba5175:has(.wrapper_edb6e0:has(foreignObject:has(.avatarStack__6604a:has(img[src*="1096285761365610576"]))))) {
-  content: "This is the ::before content";
-  color: red;
-  border: 2px solid red; 
-}
-
 /* --===([ Donator Badge ])===-- */
 .avatar__6337f:has(img[src*="705306248538488947"]) ~ .content_a6999d .username__11d8c::after,
 .avatar__6337f:has(img[src*="1096285761365610576"]) ~ .content_a6999d .username__11d8c::after {
@@ -27,6 +21,7 @@
   border-radius: 0 5px 0 0;
   pointer-events: none;
 }
+
 .layout__59abc .avatar__7bd22:has(div[aria-label*=dark_lynn]) .wrapper_edb6e0::before,
 .layout__59abc .avatar__7bd22:has(div[aria-label*=akaneruwumi]) .wrapper_edb6e0::before {
 content: "";
@@ -41,8 +36,11 @@ border-radius: 0 5px 0 0;
 pointer-events: none;
 z-index: 2
 }
+
 .avatar__08316[src*="705306248538488947"] + h3 .username_d30d99::after,
-.avatar__08316[src*="1096285761365610576"] + h3 .username_d30d99::after{
+.avatar_f8541f:has(img[src*="705306248538488947"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613,
+.avatar__08316[src*="1096285761365610576"] + h3 .username_d30d99::after,
+.avatar_f8541f:has(img[src*="1096285761365610576"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613{
   content: "";
   position: absolute;
   width: 18px;

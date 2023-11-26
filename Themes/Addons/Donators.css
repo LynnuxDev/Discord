@@ -82,7 +82,7 @@
   background-clip: none;
   -webkit-background-clip: text;
   animation: shine 5s linear infinite;
-  background-image: linear-gradient(to bottom right, #2d3134, #050838);
+  background-image: linear-gradient(to bottom right, #2d3134, #050838, #050838, #2d3134);
 
 }
 

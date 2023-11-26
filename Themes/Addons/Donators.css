@@ -23,7 +23,8 @@
   border-radius: 0 5px 0 0;
   pointer-events: none;
 }
-
+.layout__59abc .avatar__7bd22:has(div[aria-label*=dark_lynn]) .wrapper_edb6e0::before,
+.layout__59abc .avatar__7bd22:has(div[aria-label*=akaneruwumi]) .wrapper_edb6e0::before,
 .avatar__08316[src*="705306248538488947"] + h3 .username_d30d99::after,
 .avatar__08316[src*="1096285761365610576"] + h3 .username_d30d99::after {
   content: "";
@@ -36,6 +37,7 @@
   background-size: 100%;
   border-radius: 0 5px 0 0;
   pointer-events: none;
+  z-index: 2
 }
 
 .avatar__08316[src*="705306248538488947"] + h3 .timestamp_cdbd93,

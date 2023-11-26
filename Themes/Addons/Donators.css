@@ -24,7 +24,19 @@
   pointer-events: none;
 }
 .layout__59abc .avatar__7bd22:has(div[aria-label*=dark_lynn]) .wrapper_edb6e0::before,
-.layout__59abc .avatar__7bd22:has(div[aria-label*=akaneruwumi]) .wrapper_edb6e0::before,
+.layout__59abc .avatar__7bd22:has(div[aria-label*=akaneruwumi]) .wrapper_edb6e0::before {
+content: "";
+position: absolute;
+width: 18px;
+height: 14px;
+bottom: 2px;
+right: 16px;
+background: url("https://cdn.discordapp.com/emojis/780152426761814036.gif?v=1") no-repeat;
+background-size: 100%;
+border-radius: 0 5px 0 0;
+pointer-events: none;
+z-index: 2
+}
 .avatar__08316[src*="705306248538488947"] + h3 .username_d30d99::after,
 .avatar__08316[src*="1096285761365610576"] + h3 .username_d30d99::after {
   content: "";
@@ -104,4 +116,10 @@
 ⣿⣿⡃⠀⠀⠀⠀⢠⡇⠀⠀⠀⠀⢀⣇⣀⣀⣧⡀⠀⣀⣀⣀⣠⣆⠀⠀⣸⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠈⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣤⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+*/
+
+/*
+  content: "This is the ::before content";
+  color: red;
+  border: 2px solid red; 
 */

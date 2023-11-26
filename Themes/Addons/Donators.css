@@ -38,9 +38,7 @@ z-index: 2
 }
 
 .avatar__08316[src*="705306248538488947"] + h3 .username_d30d99::after,
-.avatar_f8541f:has(img[src*="705306248538488947"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613,
-.avatar__08316[src*="1096285761365610576"] + h3 .username_d30d99::after,
-.avatar_f8541f:has(img[src*="1096285761365610576"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613{
+.avatar__08316[src*="1096285761365610576"] + h3 .username_d30d99::after{
   content: "";
   position: absolute;
   width: 18px;

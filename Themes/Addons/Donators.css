@@ -64,7 +64,8 @@ z-index: 2
 .avatar_f8541f:has(img[src*="705306248538488947"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613
 .avatar_f8541f:has(img[src*="705306248538488947"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613,
 div:has(img[src*="705306248538488947"]) ~ .userPanelOverlayBackground__34fc8 .section__6f61e div .userText__3e8b7 h2,
-.avatarWrapper_f77579:has(img[src*="705306248538488947"]) ~ .userPopoutOverlayBackground_d8afa4 .section__6f61e .userText__3e8b7 h1{
+.avatarWrapper_f77579:has(img[src*="705306248538488947"]) ~ .userPopoutOverlayBackground_d8afa4 .section__6f61e .userText__3e8b7 h1,
+.avatar__8986c:has(img[src*="705306248538488947"]) ~ .text__923ee .info__40462 .username__81ee6{
   color: transparent !important;
   font-weight: bold;
   background-size: 300%;
@@ -81,7 +82,8 @@ div:has(img[src*="705306248538488947"]) ~ .userPanelOverlayBackground__34fc8 .se
 .avatar__08316[src*="1096285761365610576"] ~ .header__39b23 .headerText_f47574 .username_d30d99,
 .avatar_f8541f:has(img[src*="1096285761365610576"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613,
 div:has(img[src*="1096285761365610576"]) ~ .userPanelOverlayBackground__34fc8 .section__6f61e div .userText__3e8b7 h2,
-.avatarWrapper_f77579:has(img[src*="1096285761365610576"]) ~ .userPopoutOverlayBackground_d8afa4 .section__6f61e .userText__3e8b7 h1{
+.avatarWrapper_f77579:has(img[src*="1096285761365610576"]) ~ .userPopoutOverlayBackground_d8afa4 .section__6f61e .userText__3e8b7 h1,
+.avatar__8986c:has(img[src*="1096285761365610576"]) ~ .text__923ee .info__40462 .username__81ee6{
   color: transparent !important;
   font-weight: bold;
   background-size: 300%;

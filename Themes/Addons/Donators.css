@@ -1,5 +1,103 @@
-/**
- /
-|
- \
-**/
+/*
+
+⣿⡟⠙⠛⠋⠩⠭⣉⡛⢛⠫⠭⠄⠒⠄⠄⠄⠈⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⡇⠄⠄⠄⠄⣠⠖⠋⣀⡤⠄⠒⠄⠄⠄⠄⠄⠄⠄⠄⠄⣈⡭⠭⠄⠄⠄⠉⠙
+⣿⡇⠄⠄⢀⣞⣡⠴⠚⠁⠄⠄⢀⠠⠄⠄⠄⠄⠄⠄⠄⠉⠄⠄⠄⠄⠄⠄⠄⠄
+⣿⡇⠄⡴⠁⡜⣵⢗⢀⠄⢠⡔⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⣿⡇⡜⠄⡜⠄⠄⠄⠉⣠⠋⠠⠄⢀⡄⠄⠄⣠⣆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸
+⣿⠸⠄⡼⠄⠄⠄⠄⢰⠁⠄⠄⠄⠈⣀⣠⣬⣭⣛⠄⠁⠄⡄⠄⠄⠄⠄⠄⢀⣿
+⣏⠄⢀⠁⠄⠄⠄⠄⠇⢀⣠⣴⣶⣿⣿⣿⣿⣿⣿⡇⠄⠄⡇⠄⠄⠄⠄⢀⣾⣿
+⣿⣸⠈⠄⠄⠰⠾⠴⢾⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⢁⣾⢀⠁⠄⠄⠄⢠⢸⣿⣿
+⣿⣿⣆⠄⠆⠄⣦⣶⣦⣌⣿⣿⣿⣿⣷⣋⣀⣈⠙⠛⡛⠌⠄⠄⠄⠄⢸⢸⣿⣿
+⣿⣿⣿⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠈⠄⠄⠄⠄⠄⠈⢸⣿⣿
+⣿⣿⣿⠄⠄⠄⠘⣿⣿⣿⡆⢀⣈⣉⢉⣿⣿⣯⣄⡄⠄⠄⠄⠄⠄⠄⠄⠈⣿⣿
+⣿⣿⡟⡜⠄⠄⠄⠄⠙⠿⣿⣧⣽⣍⣾⣿⠿⠛⠁⠄⠄⠄⠄⠄⠄⠄⠄⠃⢿⣿
+⣿⡿⠰⠄⠄⠄⠄⠄⠄⠄⠄⠈⠉⠩⠔⠒⠉⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠐⠘⣿
+⣿⠃⠃⠄⠄⠄⠄⠄⠄⣀⢀⠄⠄⡀⡀⢀⣤⣴⣤⣤⣀⣀⠄⠄⠄⠄⠄⠄⠁⢹⠀
+⣿⣿⣿⠏⠉⠉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⠀⠀⢀⣿⣿⣿⠿⠿⢿⠿⠿⢿⠿⠿⠿⠿⠿⣿⣿⠿⠿⠿⠿⠿⣿⣿⣿
+⣿⣿⡟⠀⠀⣸⣿⣿⡏⠀⠀⣿⠀⠀⣸⠀⠀⠀⠀⠀⢸⡿⠀⠀⠀⠀⠀⣹⣿⣿⣿⣿
+⣿⣿⡇⠀⠀⠛⠛⠛⡇⠀⠀⠇⠀⠀⡟⠀⠀⡞⠀⠀⠼⠇⠀⠀⡇⠀⠀⢿⣿⣿⣿⣿
+⣿⣿⡃⠀⠀⠀⠀⢠⡇⠀⠀⠀⠀⢀⣇⣀⣀⣧⡀⠀⣀⣀⣀⣠⣆⠀⠀⣸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠈⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣤⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+
+*/
+
+/* @Lynnux */
+.userPopout-2j1gM4 .avatarWrapper-eenWra[data-user-id="705306248538488947"] + div > .profileBadges-2pItdR::before,
+.userPopout-2j1gM4 .avatarWrapper-eenWra[data-user-id="392609934744748032"] + div > .profileBadges-2pItdR::before{
+  content: "";
+  position: relative;
+  width: 20px;
+  height: 17px;
+  margin: 1.5px 6px 0 0;
+  pointer-events: none;
+  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") center/100% no-repeat;
+}
+
+.member-2gU6Ar .wrapper-1VLyxH[data-user-id="705306248538488947"]::before, .member-2gU6Ar .wrapper-1VLyxH[data-user-id="392609934744748032"]::before{
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 14px;
+  bottom: -3px;
+  left: -5px;
+  z-index: 2;
+  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
+  background-size: 85%;
+  border-radius: 0 5px 0 0;
+  pointer-events: none;
+}
+
+.message-2CShn3[data-author-id="705306248538488947"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+.channel-1Shao0[data-user-id="705306248538488947"] .overflow-1wOqNV,
+.member-2gU6Ar[data-user-id="705306248538488947"] .username-i5-wv- > span,
+.userPopout-2j1gM4[data-user-id="705306248538488947"] .username-3JLfHz,
+.root-8LYsGj[data-user-id="705306248538488947"] .username-3JLfHz {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-animation: shine-reversed 5s linear infinite;
+          animation: shine-reversed 5s linear infinite;
+  background-image: linear-gradient(45deg, orange, yellow, green, blue, indigo, violet, red);
+}
+.message-2CShn3[data-author-id="392609934744748032"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+.channel-1Shao0[data-user-id="392609934744748032"] .overflow-1wOqNV,
+.member-2gU6Ar[data-user-id="392609934744748032"] .username-i5-wv- > span,
+.userPopout-2j1gM4[data-user-id="392609934744748032"] .username-3JLfHz,
+.root-8LYsGj[data-user-id="392609934744748032"] .username-3JLfHz {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-animation: shine-reversed 5s linear infinite;
+          animation: shine-reversed 5s linear infinite;
+  background-image: radial-gradient(circle, rgb(1, 144, 249) 0%, rgb(253, 224, 45) 100%);
+}
+
+
+/* @Lynnux */
+
+@-webkit-keyframes shine {
+  to {
+    background-position: 300% center;
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: 300% center;
+  }
+}
+@-webkit-keyframes shine-reversed {
+  to {
+    background-position: -300% center;
+  }
+}
+@keyframes shine-reversed {
+  to {
+    background-position: -300% center;
+  }
+}

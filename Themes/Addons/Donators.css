@@ -52,6 +52,7 @@
   -webkit-background-clip: text;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(45deg, orange, yellow, green, blue, indigo, violet, red);
+
 }
 .memberInner_a32223 .avatar__6337f:has(div[aria-label*=dark_lynn]) ~ .content_a6999d .nameAndDecorators_e34d47 .name__16feb .username__11d8c .username_d272d6 {
   color: transparent !important;
@@ -70,8 +71,9 @@
   background-size: 300%;
   background-clip: none;
   -webkit-background-clip: text;
-  animation: shine-reversed 5s linear infinite;
+  animation: shine 5s linear infinite;
   background-image: linear-gradient(to bottom right, #2d3134, #050838);
+
 }
 .memberInner_a32223 .avatar__6337f:has(div[aria-label*=akaneruwumi]) ~ .content_a6999d .nameAndDecorators_e34d47 .name__16feb .username__11d8c .username_d272d6 {
   color: transparent !important;
@@ -79,8 +81,9 @@
   background-size: 300%;
   background-clip: none;
   -webkit-background-clip: text;
-  animation: shine-reversed 5s linear infinite;
+  animation: shine 5s linear infinite;
   background-image: linear-gradient(to bottom right, #2d3134, #050838);
+
 }
 
 @keyframes shine {

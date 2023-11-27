@@ -12,7 +12,8 @@
 * @source https://github.com/DarkLynn/betterdiscord
 */
 
-you 
+@import url("https://discord.lynnux.xyz/themes/src/AnimalCrossing/main.css");
+
 :root .app-2CXKsg::before { background: url('https://i.imgur.com/rMqPYyz.png') center/90% no-repeat;}
 
 @media (min-width: 1200px) {

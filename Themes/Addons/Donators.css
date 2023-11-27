@@ -7,6 +7,20 @@
 * @source https://discord.lynnux.xyz/themes/Addons/donators.css?v=1
 */
 
+/**
+ * @name Donators
+ * @author Lynnux
+ * @authorId 705306248538488947
+ * @authorLink https://lynnux.xyz
+ * @version 1.1
+ * @description A code for all donators of me.
+ * @donate https://ko-fi.com/plusinsta
+ * @website https://plusinsta.github.io/discord-plus
+ * @source https://github.com/PlusInsta/discord-plus
+ * @updateUrl https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css
+ * @invite 2Jwh2nS
+*/
+
 /* --===([ Donator Badge ])===-- */
 .avatar__6337f:has(img[src*="705306248538488947"]) ~ .content_a6999d .username__11d8c::after,
 .avatar__6337f:has(img[src*="1096285761365610576"]) ~ .content_a6999d .username__11d8c::after {
@@ -65,6 +79,7 @@ z-index: 2
 .avatar_f8541f:has(img[src*="705306248538488947"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613,
 div:has(img[src*="705306248538488947"]) ~ .userPanelOverlayBackground__34fc8 .section__6f61e div .userText__3e8b7 h2,
 .avatarWrapper_f77579:has(img[src*="705306248538488947"]) ~ .userPopoutOverlayBackground_d8afa4 .section__6f61e .userText__3e8b7 h1,
+.topSection_dfb73b:has(img[src*="705306248538488947"]) ~ .userProfileModalOverlayBackground__52d65 .body_ea740e .container_b6b15b div,
 .avatar__8986c:has(img[src*="705306248538488947"]) ~ .text__923ee .info__40462 .username__81ee6{
   color: transparent !important;
   font-weight: bold;
@@ -83,6 +98,7 @@ div:has(img[src*="705306248538488947"]) ~ .userPanelOverlayBackground__34fc8 .se
 .avatar_f8541f:has(img[src*="1096285761365610576"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613,
 div:has(img[src*="1096285761365610576"]) ~ .userPanelOverlayBackground__34fc8 .section__6f61e div .userText__3e8b7 h2,
 .avatarWrapper_f77579:has(img[src*="1096285761365610576"]) ~ .userPopoutOverlayBackground_d8afa4 .section__6f61e .userText__3e8b7 h1,
+.topSection_dfb73b:has(img[src*="1096285761365610576"]) ~ .userProfileModalOverlayBackground__52d65 .body_ea740e .container_b6b15b div,
 .avatar__8986c:has(img[src*="1096285761365610576"]) ~ .text__923ee .info__40462 .username__81ee6{
   color: transparent !important;
   font-weight: bold;

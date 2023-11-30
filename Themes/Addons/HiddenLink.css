@@ -1,0 +1,6 @@
+.anchor_c8ddc0[title$=")"]::after {
+    font-size: 0.7rem;
+    content: " (" attr(href) ") ";
+    background-color: rgba(17, 17, 17, 0.164);
+    filter: grayscale(0.4);
+}

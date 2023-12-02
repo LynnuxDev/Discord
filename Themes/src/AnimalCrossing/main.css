@@ -1879,6 +1879,10 @@
   }
 }
 
+.shop_b31ed2 {
+  z-index: 100;
+}
+
 .profileBadges__7a7cb > :last-child::before,
 .badgeList_c193e3 > :last-child::before {
   z-index: 10;

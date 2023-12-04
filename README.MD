@@ -17,7 +17,7 @@
   ・
   <a href="https://github.com/LynnuxDev/themes/issues">Report an issue</a>
   ・
-  <a href="https://discord.gg/comfy-camp-811203761619337259">Join the support server</a>
+  <a href="https://discord.gg/Lynnux">Join the support server</a>
 </div>
 <br/>
 

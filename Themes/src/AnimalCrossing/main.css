@@ -1,5 +1,6 @@
 @import url("https://discord.lynnux.xyz/themes/Addons/donators.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
+
 :root .container_b181b6 {
   background: var(--background-primary);
 }
@@ -1967,4 +1968,18 @@
     border-radius: var(--border-radius);
     background-color: var(--background-primary);
   }
+}
+
+/* Pinned Home Icon */
+.tutorialContainer__890ea {
+  position: fixed; top: 22px;
+  z-index: 1;
+  background: linear-gradient(var(--background-tertiary) 100%, transparent);
+}
+.guilds__2b93a .scroller__3d071 { 
+  contain: none !important; 
+  padding-top: 60px;
+}
+.wrapper_a7e7a8{
+  padding-top: 70px !important;
 }

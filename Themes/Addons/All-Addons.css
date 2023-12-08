@@ -1,6 +1,7 @@
 /* Main Addons */
 @import url(./Donators.css);   /* Special thanks for all sponsorse/contributors */
 @import url(./HiddenLink.css); /* See all clickable links */
+@import url(./Revert-Icons.css); 
 
 /* Events */
 @import url(./events/christmas.css); /* For Christmas */

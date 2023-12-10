@@ -13,7 +13,7 @@
 
   <br/>
 
-  <a href="https://gibbu.github.io/ThemePreview/?file=https://discord.lynnux.xyz/themes/src/Animal_Crossing.theme.css"><strong>» Theme Preview</strong></a>
+  <a href="https://cdn.lynnux.xyz/previews/animalcrossing/darkmode"><strong>» Theme Preview</strong></a>
   ・
   <a href="https://github.com/LynnuxDev/themes/issues">Report an issue</a>
   ・

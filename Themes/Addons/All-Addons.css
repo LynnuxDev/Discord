@@ -1,7 +1,9 @@
 /* Main Addons */
-@import url(./Donators.css);   /* Special thanks for all sponsorse/contributors */
-@import url(./HiddenLink.css); /* See all clickable links */
-@import url(./Revert-Icons.css); 
+@import url(https://discord.lynnux.xyz/themes/Addons/Donators.css);   /* Special thanks for all sponsorse/contributors */
+@import url(https://discord.lynnux.xyz/themes/Addons/Revert-Icons.css); 
 
 /* Events */
-@import url(./events/christmas.css); /* For Christmas */
+@import url(https://discord.lynnux.xyz/themes/Addons/events/christmas.css);  For Christmas */
+
+/* Disabled by default */
+/* @import url(https://discord.lynnux.xyz/themes/Addons/HiddenLink.css);  See all clickable links */

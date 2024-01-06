@@ -117,6 +117,24 @@ div:has(img[src*="551786741296791562"]) ~ .userPanelOverlayBackground__34fc8 .se
   background-image: linear-gradient(to right, #5563d3, #ae00ff);
 }
 
+/* --===([ berk404 ])===-- */
+.layout__59abc .avatar__7bd22:has(div[aria-label*=_prod1gyy]) ~ .content_f767b8 .nameAndDecorators_cfd1ff .name__02dbd .overflow__87fe8,
+.memberInner_a32223 .avatar__6337f:has(div[aria-label*=_prod1gyy]) ~ .content_a6999d .nameAndDecorators_e34d47 .name__16feb .username__11d8c .username_d272d6,
+.avatar__08316[src*="794629081123127306"] ~ .header__39b23 .headerText_f47574 .username_d30d99,
+.avatar_f8541f:has(img[src*="794629081123127306"]) ~ .nameTag__0e320 .panelTitleContainer__7a748 .title__10613,
+div:has(img[src*="794629081123127306"]) ~ .userPanelOverlayBackground__34fc8 .section__6f61e div .userText__3e8b7 h2,
+.avatarWrapper_f77579:has(img[src*="794629081123127306"]) ~ .userPopoutOverlayBackground_d8afa4 .section__6f61e .userText__3e8b7 h1,
+.topSection_dfb73b:has(img[src*="794629081123127306"]) ~ .userProfileModalOverlayBackground__52d65 .body_ea740e .container_b6b15b div,
+.avatar__8986c:has(img[src*="794629081123127306"]) ~ .text__923ee .info__40462 .username__81ee6{
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  background-clip: none;
+  -webkit-background-clip: text;
+  animation: shine 5s linear infinite;
+  background-image: linear-gradient(to top right, #ff0000, #000dff);
+}
+
 @keyframes shine {
   to {
     background-position: 300% center;
